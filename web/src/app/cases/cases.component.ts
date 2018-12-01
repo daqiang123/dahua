@@ -13,7 +13,10 @@ import { Component, OnInit } from '@angular/core';
 export class CasesComponent implements OnInit {
 
   constructor() {
-    $.getScript('./assets/js/main.js');
+	$.getScript('./assets/lib/jquery/jquery.min.js');
+	$.getScript('./assets/lib/superfish/superfish.min.js');
+	$.getScript('./assets/lib/wow/wow.min.js');
+	$.getScript('./assets/js/main.js');
   }
 
   ngOnInit() {

@@ -43,7 +43,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 技术支持：西安大华时代网络科技有限公司
 官网地址：https://www.xadhsd.com
-联系电话：17792261829
+联系电话：17792261329
 电子邮箱：361604199@qq.com
 
 2018年11月
