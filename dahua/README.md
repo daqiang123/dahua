@@ -12,6 +12,16 @@
 
 Run `ionic serve` for a dev server. Navigate to `http://localhost:8100/`. The app will automatically reload if you change any of the source files.
 
+## 打包安装到手机
+
+在Node.js下运行命令 ionic cordova run android --device
+
+## 打包发布
+
+在Node.js下运行命令 ionic cordova run android --prod --release
+# or
+ionic cordova build android --prod --release
+
 
 技术支持：西安大华时代网络科技有限公司
 官网地址：https://www.xadhsd.com
