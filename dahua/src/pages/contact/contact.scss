@@ -1,0 +1,56 @@
+/**
+ *  版权所有（C）2018，西安大华时代网络科技有限公司。保留所有权利。
+ */
+
+/**
+ * 	联系我们组件样式
+ *
+ *	@author 刘宏强
+ */
+page-contact {
+
+  ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  .card-logo {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width:40px;
+    height:40px;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 10%;
+    font-size: 1.5em;
+    width: 100%;
+    font-weight: bold;
+    color: #000;
+  }
+
+  .card-subtitle {
+    position: absolute;
+    top: 30%;
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 100%;
+    color: #000;
+  }
+
+  .card-description {
+    position: absolute;
+    top: 50%;
+    font-size: 1.0em;
+    width: 100%;
+    color: #000;
+  }
+
+  .opacity {
+    opacity:0.4;
+    filter:alpha(opacity=40); /* 针对 IE8 以及更早的版本 */
+  }
+
+}

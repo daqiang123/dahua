@@ -1,0 +1,146 @@
+<!--
+  版权所有（C）2018，西安大华时代网络科技有限公司。保留所有权利。
+ -->
+<!--
+  首页组件模板
+  @author 刘宏强
+-->
+<ion-header>
+  <ion-toolbar [color]="'primary'">
+    <ion-title>大华科技</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-slides pager>
+    <ion-slide *ngFor="let slide of slides">
+      <img class="opacity" [src]="slide.image"/>
+      <div class="card-logo"><img src="assets/img/logo.png"/></div>
+      <div class="card-title">{{slide.title}}</div>
+      <div class="card-subtitle">{{slide.subtitle}}</div>
+      <div class="card-description">{{slide.description}}</div>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-icon name="appstore" [color]="'primary'"></ion-icon> 服务范围
+    </ion-card-header>
+    <ion-card-content>
+      大华科技主要服务范围包括：网络信息技术、计算机软件、移动通信终端的技术研发、技术服务、技术转让；计算机系统集成等等。
+    </ion-card-content>
+  </ion-card>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <ion-icon name="globe" [color]="'primary'"></ion-icon>
+      </ion-avatar>
+      <h2>网站建设</h2>
+      <h3>模板建站 / 网站定制</h3>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <ion-icon name="phone-portrait" [color]="'primary'"></ion-icon>
+      </ion-avatar>
+      <h2>移动开发</h2>
+      <h3>APP开发 / 微信开发 / H5定制</h3>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <ion-icon name="desktop" [color]="'primary'"></ion-icon>
+      </ion-avatar>
+      <h2>软件开发</h2>
+      <h3>业务软件 / 管理软件 / 工具软件</h3>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <ion-icon name="color-palette" [color]="'primary'"></ion-icon>
+      </ion-avatar>
+      <h2>产品 / UI</h2>
+      <h3>产品原型 / UI设计</h3>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <ion-icon name="analytics" [color]="'primary'"></ion-icon>
+      </ion-avatar>
+      <h2>数据服务</h2>
+      <h3>数据采集 / 数据分析 / 数据购买</h3>
+    </ion-item>
+
+    <ion-item>
+      <ion-avatar item-start>
+        <ion-icon name="help-buoy" [color]="'primary'"></ion-icon>
+      </ion-avatar>
+      <h2>IT解决方案</h2>
+      <h3>电商行业 / 餐饮行业 / 金融行业</h3>
+    </ion-item>
+
+  </ion-list>
+
+  <ion-card>
+
+    <img class="opacity" src="assets/img/service.png"/>
+    <div class="card-title"><ion-icon name="information-circle" [color]="'primary'"></ion-icon>关于我们</div>
+    <div class="card-subtitle">西安大华时代网络科技有限公司</div>
+
+    <ion-card-content>
+      <p>
+        大华科技是国内领先的ICT（信息与通信）基础设施和智能终端提供商，致力于把数字世界带入每个人、每个家庭、每个组织，构建万物互联的智能世界。我们在通信网络、IT、智能终端和云服务等领域为客户提供有竞争力、安全可信赖的产品、解决方案与服务，与生态伙伴开放合作，持续为客户创造价值，释放个人潜能，丰富家庭生活，激发组织创新。大华科技坚持围绕客户需求持续创新，加大基础研究投入，厚积薄发，推动世界进步。
+      </p>
+    </ion-card-content>
+
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-icon name="home" [color]="'primary'"></ion-icon> 地址
+    </ion-card-header>
+    <ion-card-content>
+      <b>西安市高新区唐兴路19号</b>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-icon name="call" [color]="'primary'"></ion-icon> 电话
+    </ion-card-header>
+    <ion-card-content>
+      <b>177 9226 1329</b>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-icon name="mail" [color]="'primary'"></ion-icon> 邮箱
+    </ion-card-header>
+    <ion-card-content>
+      <b>361604199@qq.com</b>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-icon name="home" [color]="'primary'"></ion-icon> 关注微信
+    </ion-card-header>
+    <ion-card-content>
+      <img src="assets/img/qr_code.png"/>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-icon name="home" [color]="'primary'"></ion-icon> 关注官网
+    </ion-card-header>
+    <ion-card-content>
+      <img src="assets/img/qr_code2.png"/>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>

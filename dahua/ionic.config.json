@@ -1,0 +1,8 @@
+{
+  "name": "dahua",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "id": "21d6ee8a"
+}
