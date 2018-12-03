@@ -8,6 +8,9 @@
 页面截图：https://blog.csdn.net/daqiang012/article/details/84479718 
 系统演示：https://www.xadhsd.com
 
+4、App手机端（免费开源，欢迎下载！） 
+https://blog.csdn.net/daqiang012/article/details/84778883
+
 技术支持：西安大华时代网络科技有限公司 
 官网地址：https://www.xadhsd.com 
 联系电话：17792261329 
