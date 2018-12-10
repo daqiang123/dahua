@@ -17,7 +17,7 @@ export class AppComponent {
   title = 'web';
 
   constructor() {
-  	$.getScript('./assets/js/main.js');
+
   }
 
 }

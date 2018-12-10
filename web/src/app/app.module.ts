@@ -32,10 +32,10 @@ import { FooterComponent } from './footer/footer.component';
     AppRoutingModule
   ],
   providers: [
-	{
-		provide:LocationStrategy, 
-		useClass: HashLocationStrategy
-	}
+    {
+      provide:LocationStrategy,
+      useClass: HashLocationStrategy
+    }
   ],
   bootstrap: [AppComponent]
 })

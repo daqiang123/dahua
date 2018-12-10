@@ -15,11 +15,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServicesComponent implements OnInit {
 
-  constructor() {	  
-	  $.getScript('./assets/lib/jquery/jquery.min.js');
-	  $.getScript('./assets/lib/superfish/superfish.min.js');
-	  $.getScript('./assets/lib/wow/wow.min.js');
-	  $.getScript('./assets/js/main.js');
+  constructor() {
   }
 
   ngOnInit() {

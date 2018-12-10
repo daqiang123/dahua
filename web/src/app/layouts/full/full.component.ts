@@ -25,7 +25,9 @@ export class FullComponent implements OnInit {
 
 	public config: PerfectScrollbarConfigInterface = {};
 
-    constructor(public router: Router) { }
+    constructor(public router: Router) {
+
+    }
 
     ngOnInit() {
         if (this.router.url === '/') {

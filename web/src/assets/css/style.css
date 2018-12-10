@@ -1,9 +1,12 @@
-/*
-  Theme Name: BizPage
-  Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
+/**
+ *  版权所有（C）2018，西安大华时代网络科技有限公司。保留所有权利。
+ */
+
+/**
+ * 	样式
+ *
+ * @author 刘宏强
+ */
 
 /*--------------------------------------------------------------
 # General
@@ -11,7 +14,7 @@
 
 body {
   background: #fff;
-  color: #666666;
+  color: #3d3d3d;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -23,7 +26,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #18d36e;
+  color: #ff0000;
   outline: none;
   text-decoration: none;
 }
@@ -175,7 +178,7 @@ h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: #000;
+  background: #303030;
 }
 
 #intro .carousel-item {
@@ -188,7 +191,7 @@ h6 {
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -549,7 +552,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header h3 {
   font-size: 32px;
-  color: #111;
+  color: #3d3d3d;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -596,7 +599,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #featured-services {
-  background: #000;
+  background: #303030;
 }
 
 #featured-services .box {
@@ -707,7 +710,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col h2 {
-  color: #000;
+  color: #303030;
   text-align: center;
   font-weight: 700;
   font-size: 20px;
@@ -716,7 +719,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col h2 a {
-  color: #000;
+  color: #303030;
 }
 
 #about .about-col h2 a:hover {
@@ -763,7 +766,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .title a {
-  color: #111;
+  color: #3d3d3d;
 }
 
 #services .box:hover .title a {
@@ -888,7 +891,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  color: #111;
+  color: #3d3d3d;
 }
 
 #facts .facts-img {
@@ -917,7 +920,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 10px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #666666;
+  color: #3d3d3d;
   border-radius: 4px;
   text-transform: uppercase;
   background: #fff;
@@ -951,7 +954,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item figure {
-  background: #000;
+  background: #303030;
   overflow: hidden;
   height: 240px;
   position: relative;
@@ -1111,7 +1114,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #111;
+  color: #3d3d3d;
 }
 
 #testimonials .testimonial-item h4 {
@@ -1170,7 +1173,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #000;
+  background: #303030;
   position: relative;
 }
 
@@ -1266,7 +1269,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-info address,
 #contact .contact-info p {
   margin-bottom: 0;
-  color: #000;
+  color: #303030;
 }
 
 #contact .contact-info h3 {
@@ -1278,7 +1281,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a {
-  color: #000;
+  color: #303030;
 }
 
 #contact .contact-info a:hover {
@@ -1351,14 +1354,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #000;
+  background: #303030;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #111;
+  background: #3d3d3d;
   padding: 60px 0 30px 0;
 }
 

@@ -5,8 +5,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 
 import { HomeComponent } from './home.component';
 import { HomeRoutes } from './home.routing';
@@ -18,17 +16,15 @@ import { HomeRoutes } from './home.routing';
  */
 @NgModule({
 	imports: [
-    	FormsModule,
-    	CommonModule,
-      NgbModule,
-      NgxDatatableModule,
-    	RouterModule.forChild(HomeRoutes)
-    ],
-	declarations: [
-        HomeComponent,
-    ],
-    providers: [
-
-	]
+    FormsModule,
+    CommonModule,
+    
+    RouterModule.forChild(HomeRoutes)
+  ],
+  declarations: [
+      HomeComponent,
+  ],
+  providers: [
+  ]
 })
 export class HomeModule { }
