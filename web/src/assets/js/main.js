@@ -19,7 +19,7 @@
     }
   });
   $('.back-to-top').click(function(){
-    //$('html, body').animate({scrollTop : 0},1500, 'easeInOutExpo');
+    $('html, body').animate({scrollTop : 0},1500);
     return false;
   });
 
@@ -76,7 +76,10 @@
 
   // Smooth scroll for the menu and links with .scrollto classes
   $('.nav-menu a, #mobile-nav a, .scrollto').on('click', function() {
+    debugger
+
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+
       //var target = $(this.hash);
       //if (target.length) {
         var top_space = 0;
@@ -106,6 +109,7 @@
           $('#mobile-body-overly').fadeOut();
         }
         //return false;
+        return true;
       //}
     }
   });
@@ -162,7 +166,7 @@
     //$("#portfolio-flters li").removeClass('filter-active');
     //$(this).addClass('filter-active');
 
-    //portfolioIsotope.isotope({ filter: $(this).data('filter') });
+   //portfolioIsotope.isotope({ filter: $(this).data('filter') });
   //});
 
   // Clients carousel (uses the Owl Carousel library)

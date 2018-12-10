@@ -1,11 +1,11 @@
 /**
- *  ç‰ˆæƒæ‰€æœ‰ï¼ˆCï¼‰2018ï¼Œè¥¿å®‰å¤§åæ—¶ä»£ç½‘ç»œç§‘æŠ€æœ‰é™å…¬å¸ã€‚ä¿ç•™æ‰€æœ‰æƒåˆ©ã€‚
+ *  °æÈ¨ËùÓĞ£¨C£©2018£¬Î÷°²´ó»ªÊ±´úÍøÂç¿Æ¼¼ÓĞÏŞ¹«Ë¾¡£±£ÁôËùÓĞÈ¨Àû¡£
  */
 
 /**
- * 	æ ·å¼
+ * 	ÑùÊ½
  *
- * @author åˆ˜å®å¼º
+ * @author ÁõºêÇ¿
  */
 
 /*--------------------------------------------------------------
@@ -784,7 +784,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #call-to-action {
-  background: linear-gradient(rgba(0, 0, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.1)), url(../img/call-to-action-bg.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
