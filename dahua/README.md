@@ -18,7 +18,9 @@ Run `ionic serve` for a dev server. Navigate to `http://localhost:8100/`. The ap
 
 ## 打包发布
 
-在Node.js下运行命令 ionic cordova run android --prod --release
+在Node.js下运行命令 ionic cordova run android --device
+# or
+ionic cordova run android --prod --release
 # or
 ionic cordova build android --prod --release
 
